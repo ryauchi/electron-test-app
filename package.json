@@ -5,11 +5,13 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "node ./build.js"
   },
   "author": "r-yauchi",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^25.4.0"
+    "electron": "^25.4.0",
+    "electron-builder": "^24.6.3"
   }
 }
