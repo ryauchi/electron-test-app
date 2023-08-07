@@ -6,7 +6,7 @@ build({
     productName: 'Sample',
     // 出力ファイル名, 例: Sample-0.0.1-win32-x64.exe
     artifactName: '${productName}-${version}-${platform}-${arch}.${ext}',
-    copyright: 'Copyright (c) 2020 sprout2000',
+    copyright: 'Copyright (c) 2023 doctorsmobile',
     // パッケージ対象とするファイル
     files: ['./**/*'],
     // 出力先とアセットファイル置き場
@@ -27,7 +27,7 @@ build({
       // ターゲット
       target: ['nsis', 'zip'],
       // Windows では 'publisherName' が必要
-      publisherName: 'sprout2000',
+      publisherName: 'ryauchi',
     },
     // Windows インストーラの設定
     nsis: {
