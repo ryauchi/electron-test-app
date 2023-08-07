@@ -22,6 +22,10 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: 18
+    
+      # electron-builder のセットアップ
+      - name: Build/release Electron app
+        uses: samuelmeuli/action-electron-builder@v1
 
       # 依存パッケージのインストール
       - name: Install dependencies
