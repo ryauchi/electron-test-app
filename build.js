@@ -14,7 +14,7 @@ build({
       output: 'release',
       buildResources: 'assets',
     },
-    publishell: {
+    publish: {
       // GitHub へデプロイする
       provider: 'github',
       // とりあえず draft としてデプロイ
